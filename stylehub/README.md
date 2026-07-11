@@ -1,6 +1,5 @@
 # 🛍️ StyleHub - E-Commerce Web Application
 
-![StyleHub Banner](https://via.placeholder.com/1200x400?text=StyleHub+E-Commerce+Application)
 
 A modern, responsive, and user-friendly **E-Commerce Web Application** built using **React.js and Vite**. StyleHub provides a smooth online shopping experience with dynamic product browsing, category-based filtering, sorting, size selection, and complete cart management.
 
