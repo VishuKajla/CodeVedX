@@ -1,102 +1,219 @@
-CodeVedX
+# 🛍️ StyleHub - E-Commerce Web Application
 
-🛍️ StyleHub - E-Commerce Web Application
+![StyleHub Banner](https://via.placeholder.com/1200x400?text=StyleHub+E-Commerce+Application)
 
-A modern, responsive, and user-friendly E-Commerce Web Application built using React and Vite. This application provides a seamless shopping experience with dynamic product filtering, intuitive cart management, and interactive UI features.
+A modern, responsive, and user-friendly **E-Commerce Web Application** built using **React.js and Vite**. StyleHub provides a smooth online shopping experience with dynamic product browsing, category-based filtering, sorting, size selection, and complete cart management.
 
-🚀 Features
+The project focuses on creating a clean shopping interface with reusable React components, responsive design, and efficient state management using Context API.
 
-✅ Browse a diverse catalog of clothing, shoes, and accessories
-✏️ Dynamically filter products by Category and Brand
-↕️ Sort products by Price (Low to High / High to Low)
-📏 Select sizes for clothing and footwear before purchasing
-🛒 Add, update, and remove items dynamically in the shopping cart
-📱 Fully Responsive Design for mobile, tablet, and desktop
-🎨 Clean and Modern User Interface with toast notifications
+---
 
-🛠️ Technologies Used
+## ✨ Features
 
-* React.js (Hooks & Context API)
-* Vite
-* React Router v6
-* Vanilla CSS3
-* JavaScript (ES6+)
-* HTML5
+### 🛒 Shopping Experience
+- Browse a wide collection of:
+  - 👕 Clothing
+  - 👟 Shoes
+  - 👜 Accessories
+- View detailed product information
+- Select available sizes before adding products to cart
+- Add products dynamically to shopping cart
 
-📂 Project Structure
+### 🔍 Product Management
+- Filter products by:
+  - Category
+  - Brand
+- Sort products by:
+  - Price: Low to High
+  - Price: High to Low
+- Dynamic product rendering
 
+### 🛍️ Cart Features
+- Add products to cart
+- Increase/decrease product quantity
+- Remove products from cart
+- View cart summary
+- Dynamic price calculation
+
+### 📱 Responsive Design
+- Fully responsive layout for:
+  - Mobile 📱
+  - Tablet 💻
+  - Desktop 🖥️
+
+### 🎨 User Interface
+- Modern and clean UI
+- Smooth user interactions
+- Toast notifications for user actions
+- Component-based architecture
+
+---
+
+# 🚀 Live Demo
+
+🔗 **Live Website:**  
+(Add your deployed link here)
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+<img width="1523" height="888" alt="image" src="https://github.com/user-attachments/assets/57cf9d3d-c5c8-4bce-aaae-c33cb38a8ee5" />
+
+
+---
+
+## 🛒 Shopping Cart
+
+<img width="1536" height="889" alt="{07D868BE-1F07-4884-BDC4-4C16FA35CB54}" src="https://github.com/user-attachments/assets/809e04a3-592d-4158-a086-b4a664c93c51" />
+
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend framework |
+| Vite | Fast development environment |
+| React Router v6 | Page navigation |
+| Context API | Global state management |
+| JavaScript ES6+ | Application logic |
+| HTML5 | Structure |
+| CSS3 | Styling and responsive design |
+
+---
+
+# 📂 Project Structure
+
+```
 StyleHub/
 │
+├── public/
+│
 ├── src/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── Cart.jsx
+│   │   └── ...
+│   │
+│   ├── context/
+│   │   └── CartContext.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── ProductDetails.jsx
+│   │   └── ...
+│   │
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── style.css
+│
 ├── index.html
 ├── package.json
 └── README.md
+```
 
-⚙️ Installation
+---
 
-Clone the Repository
+# ⚙️ Installation & Setup
 
+Follow these steps to run the project locally.
+
+## 1. Clone Repository
+
+```bash
 git clone https://github.com/VishuKajla/stylehub.git
+```
 
-Navigate to the Project Folder
+## 2. Navigate to Project Folder
 
+```bash
 cd stylehub
+```
 
-Install Dependencies
+## 3. Install Dependencies
 
+```bash
 npm install
+```
 
-Run the Project
+## 4. Start Development Server
 
+```bash
 npm run dev
-Open the local URL (usually http://localhost:5173/) in your preferred web browser.
+```
 
-🎯 How to Use
+Open the local development server:
 
-* Browse the extensive product grid on the home page.
-* Use the left sidebar to Sort by Price or Filter by Category & Brand.
-* Click on a product image, Add to Cart, or Buy to view the item details.
-* Select your preferred Size (for applicable items) and click Add to Cart.
-* Click Go to Cart in the navigation bar to review your items, update quantities, or proceed to checkout.
+```
+http://localhost:5173/
+```
 
-📸 Screenshots
+---
 
-Home Page
-<img width="1518" height="893" alt="{611A7A43-BEC3-4429-B346-49434B74E46D}" src="https://github.com/user-attachments/assets/f6fd6418-a61a-43c2-8231-477c9e395b87" />
+# 🎯 How To Use
 
+1. Open the StyleHub website.
+2. Browse products from different categories.
+3. Use filters to find products by category or brand.
+4. Sort products according to price preference.
+5. Select the required size (if available).
+6. Add products to the shopping cart.
+7. Manage cart items and update quantities.
+8. Proceed towards checkout.
 
-Shopping Cart
-<img width="1535" height="892" alt="image" src="https://github.com/user-attachments/assets/ed50f6cb-65de-4e32-9ce2-a0863435f293" />
+---
 
+# 🔮 Future Enhancements
 
-💡 Future Enhancements
+The following features are planned for future updates:
 
-📅 User Authentication (Login/Signup)
-🔍 Search Products by Name
-🏷️ Product Wishlist
-⭐ Mock Checkout and Payment Gateway
-📊 User Order History
-☁️ Cloud Database Integration (Firebase/MongoDB)
+- 🔐 User Authentication (Login / Signup)
+- 🔎 Search functionality
+- ❤️ Product Wishlist
+- 💳 Payment Gateway Integration
+- 📦 Order Tracking System
+- 🧾 User Order History
+- ☁️ Database Integration using Firebase / MongoDB
+- ⭐ Product Reviews and Ratings
 
-🤝 Acknowledgements
+---
 
-This project was developed as part of my learning journey with CodeVedX.
-Special thanks to CodeVedX for providing guidance, mentorship, and practical learning opportunities throughout the development of this project.
+# 👨‍💻 Author
 
-👨‍💻 Author
+## Vishu Kajla
 
-Vishu Kajla
-GitHub: https://github.com/VishuKajla
-LinkedIn: https://www.linkedin.com/in/vishu-kajla/
+GitHub:  
+https://github.com/VishuKajla
 
-⭐ Support
+LinkedIn:  
+https://www.linkedin.com/in/vishu-kajla/
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
-Your support motivates me to continue building and sharing more projects.
+---
 
-📄 License
+# 🙏 Acknowledgements
 
-This project is open source and available under the MIT License.
+This project was developed as part of my learning journey with **CodeVedX**.
+
+Special thanks to **CodeVedX** for providing guidance, mentorship, and practical experience in modern web development.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Your support encourages me to keep building and sharing more projects.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project.
